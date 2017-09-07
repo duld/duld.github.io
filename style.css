@@ -1,0 +1,88 @@
+html, body {
+	background: #F2BF85; /* Beccapurple */
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #B24530;
+}
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 2.5% 2.5% 0;
+	background: #FFFFF2;
+	line-height: 1.8;
+	-moz-box-shadow: 0 0 5px 5px #888;
+    -webkit-box-shadow: 0 0 5px 5px#888;
+    box-shadow: 0 0 5px 5px #888;
+}
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+	padding-right: 0;
+	-webkit-padding-start: 0px;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	display: block;
+	padding: 10px;
+}
+
+h1 {
+	font: 1.6em Verdana, Geneva, sans-serif;
+	margin-bottom: .4em;
+	color: #B24530;
+}
+h2 {
+	font: 3.2em Georgia, "Times New Roman", Times, serif;
+	margin-bottom: .2em;
+}
+h3 {
+	font-size: 1.2em;
+}
+p {
+	margin-bottom: 1em;
+}
+a {
+	color: rgb(184, 126, 84);
+}
+a:hover {
+	color: rgb(120, 97, 55);
+}
+pre {
+	font-size: 1.4em;
+	color: white;
+	padding: .5em 1em;
+	border-left: 1em solid #A68048;
+	background: #666;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	width: 80%;
+}
+.center {
+	text-align: center;
+}
+header h2 {
+	padding-bottom: .2em;
+	border-bottom: 1px solid gray;
+}
+footer {
+	border-top: 1px solid gray;
+	text-align: center;
+	font-size: .8em;
+	line-height: 4em;
+	margin-top: 1em;
+}
