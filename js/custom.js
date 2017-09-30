@@ -1,11 +1,5 @@
 (function ($) {
     
-    // Init Wow
-    wow = new WOW( {
-        animateClass: 'animated',
-        offset:       100
-    });
-    wow.init();
     
     // Navigation scrolls
     $('.navbar-nav li a').bind('click', function(event) {
@@ -41,11 +35,6 @@
             $(".navbar-fixed-top").removeClass("top-nav-collapse");
         }
     });
-    
-    // Testimonials Slider
-    $('.bxslider').bxSlider({
-      adaptiveHeight: true,
-      mode: 'fade'
-    });
+
     
 })(jQuery);
