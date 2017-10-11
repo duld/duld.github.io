@@ -671,11 +671,13 @@ WEB
 ***********************************/
 
 .web-index {
-	background: url('../img/web_01_https_comp.jpg') no-repeat fixed;
+    background: url('../img/web_01_https_comp.jpg') no-repeat center fixed;
+    background-size: cover;
 }
 
 .web-https {
-    background: url();
+    background: url('../img/web_02_https_comp.jpg') no-repeat center fixed;
+    background-size: cover;
 }
 
 
