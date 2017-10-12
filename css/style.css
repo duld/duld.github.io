@@ -676,6 +676,10 @@ a:hover h3 {
     text-decoration: underline;
 }
 
+section div ol, ul {
+    list-style-type: disc;
+}
+
 /***********************************
 ************************************
 WEB
@@ -723,11 +727,21 @@ DEVELOPMENT
     background-size: cover;
 }
 
+
+.dev-html {
+    background: url('../img/dev_04_html_comp.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+.dev-css {
+    background: url('../img/dev_02_css_comp.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
 .dev-webhost {
     background: url('../img/dev_05_webhost_comp.jpg') no-repeat center fixed;
     background-size: cover;
 }
-
 
 .dev-fullstack-frontend {
     background: url('../img/dev_06_fullstackvsfrontend_comp.jpg') no-repeat center fixed;
