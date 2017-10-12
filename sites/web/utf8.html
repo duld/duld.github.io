@@ -24,7 +24,7 @@
     <div class="loader"></div>
     <div id="myDiv">
     <!--HEADER-->
-    <div class="header web-https">
+    <div class="header web-utf8">
       <div class="bg-color">
         <!-- Header -->
         <header id="main-header">
@@ -56,9 +56,9 @@
         <div class="container">
           <div class="row">
             <div class="banner-info text-center wow fadeIn delay-05s">
-              <h1 class="bnr-title">HTTP over SSL</h1>
-              <h2 class="bnr-sub-title">HTTPS</h2>
-              <p class="bnr-para">Hyper Text Transfer Protocol Secure is the secure version of HTTP. HTTP is the protocol that handles browser to server communication <br>and HTTPS aims to add a layer of security between that connection.</p>
+              <h1 class="bnr-title">Unicode Transformation Format - 8 bit</h1>
+              <h2 class="bnr-sub-title">UTF-8</h2>
+              <p class="bnr-para">UTF-8 is the most popular character encoding in use on the web today. With the rise of UTF-8 many encoding problems<br> that occured between systems running unique encodings to a particular<br> language or region have largely been elimenated.</p>
             </div>
           </div>
         </div>
@@ -69,14 +69,16 @@
     <!---->
     <section id="feature" class="section-padding wow fadeIn delay-05s">
       <div class="container">
-            <p>I really like HTTPS. If only for the reason that it limits how much information my ISP has on my browsing habits. I am strongly opposed to paying a subscription fee only to be tracked. Google will track your searches, but we don't pay them a fee to use Search. The ISP we pay don't really want to be an ISP, they don't want to be the transport layer that other people's content travels over. They want to sell you content, they're cable companies that begrudgingly sell internet access. I could rant about this stuff for hours. But I will refrain =).</p>
-
-            <p>What I would like to say is that because of how HTTPS works, your ISP can only really see the domain name of the site you're visiting and not the sub domain. That means, they can see you went to Amazon, but they don't know what you're shopping for. This is useful because it, makes it difficult for an ISP to know their customer's shopping habits, sell that data to advertisers and then inject the highly focused advertising onto the web content you're viewing. Hah! This is just turning into a rant!</p>
-
-            <p>One common argument that she mentioned and I've heard before is that HTTPS and HTTP/2 is slow(er in some cases) because of the extra handshaking and encryption. But the best response I've heard is that, processor cycles are cheap and they're only getting cheaper. Not to mention quicker. Its not a problem with today's processors and certainly wont be an issue moving forward.</p>
-
-            <p>There are criticisms however that look like they might be <a href="https://en.wikipedia.org/wiki/HTTP/2#Criticisms">valid</a>. And it has to do with securing content that doesn't need to be secure and the cost associated with purchasing certificates every year (shorter certificates are generally more favorable for security). I really don't know enough about that aspect. And Let's Encrypt doesn't seem to be the magic bullet. If they keep issuing questionable certificates, their certificates will lose all credibility with browser vendors.</p>
-            <p>&nbsp;</p>
+            <p>Pretty interesting.I had heard of Unicode from using Python but never really looked too much into it. I didn't know that UTF-8 &nbsp;along with UTF-16, UTF-32 etc, was an encoding of Unicode. That's what the "U" in UTF-* stands for, "Unicode Transformation Format, 8-bit". The is an interesting blog post about Unicode and JavaScript over at the blog of <a href="https://mathiasbynens.be/notes/javascript-unicode">Mathias Bynens</a></p>
+            <p>Some Definitions of words that I needed</p>
+            <ul>
+            <li><strong>Grapheme</strong>: characters or pieces of characters that you might write on a page to make words, sentences, or other pieces of text</li>
+            <li><strong>Code Point:&nbsp;</strong>A number that maps to a particular abstract character. Code points make it so that we have a number pointing to a character without worrying about implementation details of how those numbers are stored for the computer to read. Encodings define how the code points map to particular sequence of bytes on disk and in memory.</li>
+            </ul>
+            <p><a class=" inline_disabled" href="https://www.youtube.com/watch?v=sqPTR_v4qFA">Introduction to UTF-8 and Unicode</a></p>
+            <p>I really like videos that cover more technical topics to have slides incorporated. Sometimes people like to bash slides, but I love having a visual point of reference. One slight note, around 6 minutes 39 seconds, into the video he shows a 4 byte character but he leaves out the heading byte and doesn't end all four character bytes with 10 as per <a href="https://en.wikipedia.org/wiki/UTF-8#Description">UTF-8 Wikipedia description</a>. So don't take his example as correct. If he didn't clear up some of what was said in the Current Topic video I wouldn't be linking this video. Most of what he says is accurate just not his encoding.</p>
+            <p>On a side note.</p>
+            <p>Was it just me or did the Cameraman's erratic movement drive anyone else insane?&nbsp;What is he doing!? zoom in, zoom out, camera 2 is mostly stable for all of its shots, meanwhile camera 1 came from the bar toasted. Steady Cams and Image stabilization is a <a class=" inline_disabled" href="https://www.youtube.com/watch?v=X2vvdJGxPkI">wonderful thing</a>.</p>
         <div class="row">
           
 
