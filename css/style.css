@@ -747,6 +747,11 @@ DEVELOPMENT
     background: url('../img/dev_06_fullstackvsfrontend_comp.jpg') no-repeat center fixed;
     background-size: cover;
 }
+
+.dev-jobhunt {
+    background: url('../img/dev_07_jobhunt_comp.jpg') no-repeat center fixed;
+    background-size: cover;
+}
 /***********************************
 ************************************
 TOOLS
