@@ -697,13 +697,42 @@ WEB
     background-size: cover;
 }
 
+.web-utf8 {
+    background: url('../img/web_04_utf8_comp.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+.web-darkweb {
+    background: url('../img/web_03_darkweb_comp.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+.web-web20 {
+    background: url('../img/web_04_web20_comp.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
 
 /***********************************
 ************************************
 DEVELOPMENT
 ************************************
 ***********************************/
+.dev-index {
+    background: url('../img/dev_01_servers_comp.jpg') no-repeat center fixed;
+    background-size: cover;
+}
 
+.dev-webhost {
+    background: url('../img/dev_05_webhost_comp.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+
+.dev-fullstack-frontend {
+    background: url('../img/dev_06_fullstackvsfrontend_comp.jpg') no-repeat center fixed;
+    background-size: cover;
+}
 /***********************************
 ************************************
 TOOLS
