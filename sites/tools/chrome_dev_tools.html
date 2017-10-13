@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jeffrey M. - CIT82 | Chrome Dev Tools</title>
+    <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,300|Raleway:300,400,900,700italic,700,300,600">
+    <link rel="stylesheet" type="text/css" href="../../css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../../css/animate.css">
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <link rel="icon" href="../../favicon.ico" type="image/x-icon">
+    <!-- =======================================================
+        Theme Name: Baker
+        Theme URL: https://bootstrapmade.com/baker-free-onepage-bootstrap-theme/
+        Author: BootstrapMade.com
+        Author URL: https://bootstrapmade.com
+    ======================================================= -->
+</head>
+
+<body>
+
+    <div class="loader"></div>
+    <div id="myDiv">
+        <!--HEADER-->
+        <div class="header tools-chrome">
+            <div class="bg-color">
+                <!-- Header -->
+                <header id="main-header">
+                    <!-- Navigation -->
+                    <nav class="navbar navbar-default navbar-fixed-top">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#">CIT
+                                    <span class="logo-dec">-82</span>
+                                </a>
+                            </div>
+                            <div class="collapse navbar-collapse" id="myNavbar">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="">
+                                        <a href="../../">Home</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="../web/">Web</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="./">Development</a>
+                                    </li>
+                                    <li class="active">
+                                        <a href="../tools/">Tools</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="../consumer/">Consumer</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+
+                <div class="wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="banner-info text-center">
+                                <h1 class="bnr-title">Google Chrome</h1>
+                                <h2 class="bnr-sub-title">Developer Tools</h2>
+                                <p class="bnr-para">Every good browser these days come with their own developer tools. Developer Tools allow Web Developers to <br>troubleshoot their code and diagnose bugs. Gaining expertise with these browser based tools<br> has become a necessity when developing for the web.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ HEADER-->
+        <!---->
+        <section id="feature" class="section-padding">
+            <div class="container">
+                    <p>&nbsp;</p>
+                    <h3><a class=" inline_disabled" href="https://youtu.be/Hkg-pPELSaY?t=1978">Google Developer Tools - Audit tab</a></h3>
+                    <p>This guy goes over a lot of the basics of Chrome's DevTools but I wanted to highlight his Audit portion of the video. I have never used the DevTools Audit tab and really didn't know much about it. I ended up running an audit on this webpage to see what results came up. If you wanted to run it yourself on this page, make sure you deselect the 'progressive web app' check box. Canvas already has a mobile app so I don't think it's fair to critique their App against Progressive web app best practices. Here are the results I got when I ran an Audit&nbsp;on 8/27/17 (&nbsp;<a href="https://drive.google.com/file/d/0Bwyv1-yAp_mVX1hOdXV0azY2ckE/view">running an Audit on Hands-On webpage&nbsp;</a>). The largest hit to performance came surprisingly from a 65kb file. It wasn't the downloading of the file that caused the performance hit but probably applying all of the CSS styles. The total rendering delay was nearly 1 second, the other CSS files had substantial rendering delay times also but I'm not sure if those are actual time delays that the webpage experienced. My reasoning behind this is that if you scroll down on the Audit results, you should find a rendering/painting timeline and the output that gave me for the first meaningful paint (when a large portion of the page is not only loaded but rendered to our screen) was below 2 seconds. And if you add up all of the delays from the CSS alone, it amounts to 4 seconds. The audit results breaks down some suggestions to improve your score and I found that worth diving into. Especially when they link to outside resources such as <a href="https://developers.google.com/web/tools/lighthouse/audits/blocking-resources">Render-Blocking Resources</a>.</p>
+                    <p>&nbsp;</p>
+                    <h3><a class=" inline_disabled" href="https://youtu.be/UURZFzk92bU?t=660">30 Chrome DevTools Tips - Network Tab portion</a></h3>
+                    <p>Because the Audit tab did a performance analysis of the webpage loading, I was interested in what the Network Tab might show. This video is by nodecasts, in the video Jon goes over in some nice detail the breakdown that the Network tab does for you. My network tab will keep recording until i manually stop recording (the record button in the top left of the Network Tab). I used the network tab to check the results against what the audit tab was showing me. And I do see some discrepancies between the two. Based on the amount of information that the Network tab give you I would trust that, in terms of delay tracking over the Audit tab. With that said however, the Audit tab gives out recommendations while the network tab is all business. I think both will be very useful to me.</p>
+                    <p>&nbsp;</p>
+            </div>
+        </section>
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <footer id="footer">
+            <div class="container">
+                <div class="row text-center">
+                    <p>&copy; Baker Theme. All Rights Reserved.</p>
+                    <div class="credits">
+                        <!-- 
+                All the links in the footer should remain intact. 
+                You can delete the links only if you purchased the pro version.
+                Licensing information: https://bootstrapmade.com/license/
+                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Baker
+            -->
+                        Designed by
+                        <a href="https://bootstrapmade.com/">Bootstrap Themes</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!---->
+    </div>
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/jquery.easing.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/custom.js"></script>
+</body>
+
+</html>
