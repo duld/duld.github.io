@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jeffrey M. - CIT82 | Semantic Versioning</title>
+    <title>Jeffrey M. - CIT82 | Gulp</title>
     <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
 
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,300|Raleway:300,400,900,700italic,700,300,600">
@@ -26,7 +26,7 @@
     <div class="loader"></div>
     <div id="myDiv">
         <!--HEADER-->
-        <div class="header tools-semver">
+        <div class="header tools-gulp">
             <div class="bg-color">
                 <!-- Header -->
                 <header id="main-header">
@@ -54,10 +54,10 @@
                                     <li class="">
                                         <a href="../development">Development</a>
                                     </li>
-                                    <li class="active">
+                                    <li class="">
                                         <a href="./">Tools</a>
                                     </li>
-                                    <li class="">
+                                    <li class="active">
                                         <a href="../consumer/">Consumer</a>
                                     </li>
                                 </ul>
@@ -70,9 +70,9 @@
                     <div class="container">
                         <div class="row">
                             <div class="banner-info text-center">
-                                <h1 class="bnr-title">Semver 1.4.11</h1>
-                                <h2 class="bnr-sub-title">Semantic Versioning</h2>
-                                <p class="bnr-para">Modern software and API's track their version number and using Semantic <br>Versioning, A three number identity that specifies breaking changes, <br>feature additions and bug fixes.</p>
+                                <h1 class="bnr-title">Gulp JS</h1>
+                                <h2 class="bnr-sub-title">JavaScript Taskrunner</h2>
+                                <p class="bnr-para">Taskrunners are very popular for automating repetitive tasks when doing Web Development. Often these tools <br>are able to free up time for the developer and move repetive <br>menial tasks to the background.</p>
                             </div>
                         </div>
                     </div>
@@ -83,15 +83,19 @@
         <!---->
         <section id="feature" class="section-padding">
             <div class="container">
-                <div class="text-center">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/QMUSkra7Blk" frameborder="0" allowfullscreen></iframe>
-                </div>
-                    <h3>In response to Semantic Version video</h3>
-                    <p>One thing I noticed while watching the video is that there was alot of emphesis put on the importance of semmantic version in regards to 'public facing API'. This makes sense when I think of software language versions or library versions but much less useful for more traditional software. A lot of the software I use on my computer have no API to interface with but they follow a similar versioning. The importance of semmantic versioning really seems to shine when considering if you are fine not upgrading a core library or framework for your project.</p>
-                    <p>Newer is not better if you breaks your software. For example the python community was divided when python 3 was released. Python 3 broke backwards compatibility so the majority of python modules were incompatible from the start. No one wanted to upgrade to Python 3, even as it began to eclipse Python 2 in terms of performance and features. People are still sour about it. Same thing with the Angular JS framework in regards to AngularJS vs Angular 2/4</p>
-                    <p><a href="https://softwareengineering.stackexchange.com/questions/57587/how-do-early-version-numbers-work-for-new-products" target="_blank">stackexchange - how do early version numbers work?</a><br />Useful information when looking at software that doesn't follow semmantic versioning format</p>
-                    <p>Some Software I use regularly<br /><strong>Piriform Speccy</strong> - v1.29.714</p>
-                    <p><strong>Firefox</strong>: 55.0.3 &nbsp;- &nbsp;Major 55, Minor 0, patch 3<br /><strong>Visual Studio Code</strong>: 1.16.0 &nbsp;- &nbsp;Major 1, Minor 16, patch 0<br /><strong>Node:</strong> 6.10.2 &nbsp;- &nbsp;Major 6, minor 10, patch 2<br /><strong>Python2:</strong> 2.7.6 &nbsp;- &nbsp;Major 2, minor 7, patch 6<br /><strong>Python3:</strong> 3.4.3 &nbsp;- &nbsp;Major 3, minor 4, patch 3<br /><strong>Diablo 3:</strong> v2.6.0.46568 &nbsp; - &nbsp;Major 2, minor 6, patch 0, revision <span>46568</span></p>
+                    <h3><a href="https://gulpjs.com/">Gulp</a><br /><a href="https://github.com/gulpjs/gulp">Gulp - Github</a></h3>
+                    <p>"gulp is a toolkit for automating painful or time-consuming tasks in your development workflow, so you can stop messing around and build something."</p>
+                    <h4>Gulp Breakdown</h4>
+                    <p><a href="http://brandonclapp.com/what-is-gulp-js-and-why-use-it/">The best breakdown of "what is gulp" I found</a></p>
+                    <p>Essentially Gulp along with other task runners will add some automation to your build process. By build process I mean, whatever steps you take to make your development code (the code you write when adding features) into deployment code (the code that the user of your app/site receives). In the context of this week's Monday Current Topics - Optimizing Images examples, we could set up a task to automatically compress any new images we add to the site using a package such as <a href="https://www.npmjs.com/package/gulp-imagemin">imagemin.</a></p>
+                    <h4>Minification</h4>
+                    <p>Another common task is concatenating .css and .js files and then minifying those files. This can reduce the number of requests required to load your website, which could cause it to load much quicker.</p>
+                    <h4>Cons</h4>
+                    <p>Some cons to working with task runners. Based on what I've read, task runners often rely on plug-ins that can have little to no documentation, or they are out of date and you must wait for the plug-in to update. Often these plug-ins will leverage the API's of an NPM package but will offer a different public API to the developer using Gulp/Grunt. This can cause confusion and mixed output based on the NPM package API docs and the Gulp plug-in API docs.</p>
+                    <h4>In conclusion..</h4>
+                    <p>I personally don't know enough about task runners to form any kind of conclusion, but I have heard people mention Gulp, Webpack and Yeoman offering desirable features. From all the advice I've seen so far, everyone seems to agree that you should start with just Node and NPM and leverage those tools until you need something more. Although some argue that you can just stick with Node and NPM.<br /><br /></p>
+                    <p><a class=" inline_disabled" href="https://www.youtube.com/watch?v=wNlEK8qrb0M&amp;list=PLLnpHn493BHE2RsdyUNpbiVn-cfuV7Fos">Learning Gulp - Playlist</a></p>
+                    <p><a href="https://medium.freecodecamp.org/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8">Arguments against Gulp and Grunt and pro NPM</a></p>
             </div>
         </section>
         <!---->

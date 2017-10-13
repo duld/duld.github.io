@@ -672,6 +672,10 @@ contact
     text-decoration: none;
 }
 
+.wrap-item {
+    height: 200px;
+}
+
 a:hover h3 {
     text-decoration: underline;
 }
@@ -784,6 +788,11 @@ TOOLS
 
 .tools-frontend-frameworks {
     background: url('../img/tools_04_frontendframeworks_comp.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+.tools-gulp {
+    background: url('../img/jscode_comp.jpg') no-repeat center fixed;
     background-size: cover;
 }
 
