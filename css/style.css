@@ -687,7 +687,7 @@ WEB
 ***********************************/
 
 .web-index {
-    background: url('../img/web_01_https_comp.jpg') no-repeat center fixed;
+    background: url('../img/dev_03_gulp_comp.jpg') no-repeat center fixed;
     background-size: cover;
 }
 
@@ -795,7 +795,30 @@ TOOLS
 CONSUMER
 ************************************
 ***********************************/
+.consumer-index {
+    background: url('../img/consumer_index_comp.jpg') no-repeat center fixed;
+    background-size: cover;
+}
 
+.consumer-uxui {
+    background: url('../img/consumer_01_ux_comp.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+.consumer-ecommerce {
+    background: url('../img/consumer_02_wordpressecommerce_comp.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+.consumer-seo {
+    background: url('../img/consumer_03_seo_comp.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+.consumer-sites-vs-apps {
+    background: url('../img/consumer_04_sites_vs_apps_comp.jpg') no-repeat center fixed;
+    background-size: cover;
+}
 
 
 
