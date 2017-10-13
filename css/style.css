@@ -757,7 +757,39 @@ DEVELOPMENT
 TOOLS
 ************************************
 ***********************************/
+.tools-index {
+    background: url('../img/tools_index_comp.jpg') no-repeat center fixed;
+    background-size: cover;
+}
 
+.tools-chrome {
+    background: url('../img/tools_01_chromedevtools_comp.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+.tools-vscode {
+    background: url('../img/tools_02_vscode_comp.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+.tools-git {
+    background: url('../img/tools_03_gitbranch_comp.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+.tools-semver {
+    background: url('../img/tools_05_semantic_versioning_comp.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+.tools-frontend-frameworks {
+    background: url('../img/tools_04_frontendframeworks_comp.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+.bnr-para {
+    font-weight: bold;
+}
 /***********************************
 ************************************
 CONSUMER
